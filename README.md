@@ -40,7 +40,7 @@ This case study answers:
 - Where should cost savings not compromise reliability or visibility?
 - How can recommendations be explained to both technical and business stakeholders?
 
-## Expected Recommendations
+## Optimization Recommendations
 
 Potential recommendations include:
 
