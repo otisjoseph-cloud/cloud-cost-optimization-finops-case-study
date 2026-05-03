@@ -1,0 +1,21 @@
+month,service,resource_id,environment,owner_team,usage_metric,usage_amount,monthly_cost,utilization_percent,optimization_signal,recommended_action,estimated_monthly_savings
+2026-01,EC2,i-ec2-prod-001,production,claims-platform,instance_hours,720,185.00,72,Healthy usage,Monitor only,0.00
+2026-01,EC2,i-ec2-dev-002,development,claims-platform,instance_hours,720,132.00,8,Underutilized,Stop after business hours or right-size,75.00
+2026-01,EC2,i-ec2-test-003,test,data-analytics,instance_hours,720,96.00,5,Idle resource,Stop or schedule on demand,70.00
+2026-01,S3,s3-raw-claims-zone,production,data-analytics,gb_stored,2500,57.50,0,Older raw data,Apply lifecycle policy to infrequent access,18.00
+2026-01,S3,s3-processed-claims-zone,production,data-analytics,gb_stored,900,20.70,0,Active analytics data,Keep standard storage,0.00
+2026-01,CloudWatch,cw-claims-app-logs,production,cloud-operations,gb_ingested,180,92.00,0,High log retention,Review retention period and log volume,35.00
+2026-01,Athena,athena-claims-queries,production,data-analytics,tb_scanned,14,70.00,0,High scan volume,Partition data and convert to Parquet,40.00
+2026-01,NAT Gateway,nat-prod-a,production,networking,gb_processed,950,72.00,0,High data processing,Review private endpoints and traffic path,22.00
+2026-01,NAT Gateway,nat-prod-b,production,networking,gb_processed,880,66.00,0,High data processing,Review private endpoints and traffic path,20.00
+2026-01,RDS,rds-claims-reporting,production,data-analytics,instance_hours,720,210.00,61,Healthy usage,Monitor only,0.00
+2026-02,EC2,i-ec2-prod-001,production,claims-platform,instance_hours,672,172.00,69,Healthy usage,Monitor only,0.00
+2026-02,EC2,i-ec2-dev-002,development,claims-platform,instance_hours,672,123.00,7,Underutilized,Stop after business hours or right-size,70.00
+2026-02,EC2,i-ec2-test-003,test,data-analytics,instance_hours,672,90.00,4,Idle resource,Stop or schedule on demand,65.00
+2026-02,S3,s3-raw-claims-zone,production,data-analytics,gb_stored,2800,64.40,0,Older raw data,Apply lifecycle policy to infrequent access,22.00
+2026-02,S3,s3-processed-claims-zone,production,data-analytics,gb_stored,1050,24.15,0,Active analytics data,Keep standard storage,0.00
+2026-02,CloudWatch,cw-claims-app-logs,production,cloud-operations,gb_ingested,210,108.00,0,High log retention,Review retention period and log volume,42.00
+2026-02,Athena,athena-claims-queries,production,data-analytics,tb_scanned,18,90.00,0,High scan volume,Partition data and convert to Parquet,52.00
+2026-02,NAT Gateway,nat-prod-a,production,networking,gb_processed,1040,79.00,0,High data processing,Review private endpoints and traffic path,25.00
+2026-02,NAT Gateway,nat-prod-b,production,networking,gb_processed,970,73.00,0,High data processing,Review private endpoints and traffic path,23.00
+2026-02,RDS,rds-claims-reporting,production,data-analytics,instance_hours,672,196.00,64,Healthy usage,Monitor only,0.00
