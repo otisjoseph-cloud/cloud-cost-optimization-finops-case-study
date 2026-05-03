@@ -8,6 +8,10 @@ The goal is to show practical FinOps thinking: identifying cost drivers, separat
 
 This project uses sample data only. No real company, customer, patient, member, provider, payment, or billing data is included.
 
+## FinOps Review Flow
+
+![Cloud Cost Optimization FinOps Review Flow](diagrams_finops_review_flow.png)
+
 ## Scenario
 
 A healthcare-adjacent cloud environment has growing AWS spend across compute, storage, monitoring, and analytics services. The organization wants to understand where cost is increasing and which optimization actions can reduce waste without weakening availability, security, or operational visibility.
